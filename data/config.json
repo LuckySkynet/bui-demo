@@ -1,0 +1,44 @@
+{
+    "config": [{
+        "id": "menu",
+        "homepage": "code",
+        "menu": [{
+            "text": "首页内容",
+            "items": [{
+                "id": "code",
+                "text": "首页代码",
+                "href": "main/menu.html",
+                "closeable": false
+            }, {
+                "id": "c",
+                "text": "标签页",
+                "href": "main/test.html"
+            }, {
+                "id": "d",
+                "text": "窗口变化",
+                "href": "main/test.html"
+            }, {
+                "id": "e",
+                "text": "首页资源文件",
+                "href": "main/test.html"
+            }, {
+                "id": "g",
+                "text": "其他",
+                "href": "main/test.html"
+            }]
+        }]
+    }, {
+        "id": "menu2",
+        "collapsed": true,
+        "homepage": "code",
+        "menu": [{
+            "text": "搜索页面",
+            "items": [{
+                "id": "code",
+                "text": "搜索首页",
+                "href": "main/menu.html",
+                "closeable": false
+            }]
+        }]
+    }]
+}
